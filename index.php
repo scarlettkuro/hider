@@ -52,6 +52,7 @@
                 header("Location:/?". $query);  
                 exit;
             }
+            $error = 'server error';
         }
         //load denied
         $error = 'Not image';
