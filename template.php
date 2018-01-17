@@ -16,7 +16,7 @@
       <main role="main">
 
         <div class="jumbotron">
-          <form action="/upload" method="POST" enctype="multipart/form-data">
+          <form action="/?upload=1" method="POST" enctype="multipart/form-data">
             <h4>Load image</h4>
             <p class="lead">You can write hidden text in image without changing it. Just upload it, type and save</p>
             <div class="form-group">
